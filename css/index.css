@@ -25,14 +25,16 @@
     transition: box-shadow 1s;
 }
 
-    @media screen and (max-width:780px) {
+    @media screen and (max-width:1075px) {
         .banner-text {
+            margin-top: 100px;
+            display: block;
             text-align: bottom;
             position: absolute;
             font-size: 3vw;
             top: 50%;
             left: 50%;
             transform: translate(-50%, 50%);
-            color: black
+            color: red;
         }
     }

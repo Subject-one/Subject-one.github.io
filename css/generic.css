@@ -6,7 +6,7 @@ body, html {
 
 .nav-wrapper {
     display: flex;
-    padding: 40px;
+    padding: 36px;
 }
 
 .left-side {
@@ -14,8 +14,8 @@ body, html {
 }
 
 .nav-wrapper > .left-side > div {
-    margin-right: 20px;
-    font-size: 0.95em;
+    margin-right: 25px;
+    font-size: 1em;
     text-transform: lowercase;
 }
 
