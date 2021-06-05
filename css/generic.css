@@ -1,4 +1,4 @@
-body {
+body, html {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     max-width: 80rem;
@@ -15,7 +15,7 @@ body {
 
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
-    font-size: 0.9em;
+    font-size: 0.95em;
     text-transform: lowercase;
 }
 
@@ -37,12 +37,5 @@ body {
 }
 
 .nav-link-wrapper a:hover {
-    color: black;
-}
-
-#bgImage {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    color: #f72585;
 }
