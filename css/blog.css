@@ -1,3 +1,9 @@
+@media screen and (min-width:768px) {
+  
+  .mobileUser{
+    display: none;
+  }
+
   .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -52,3 +58,49 @@
     transition: 1s;
   }
 
+}
+
+@media screen and (max-width:767px) {
+  .content-wrapper {
+      display:none;
+  }
+
+  body {
+    font-size: 5vw;
+  }
+
+  .mobileUser {
+    font-size: 5vw;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  .mobileUserX{
+    color: coral;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .provingPoint{
+    display: flex;
+    justify-content: center;
+    border: solid;
+  }
+
+  .mobileHead {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .blogPosts {
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
