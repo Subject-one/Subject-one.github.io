@@ -1,0 +1,44 @@
+@media screen and (max-width:768px) {
+    .mobileUser {
+        display: none;
+        margin: 0px;
+    }
+
+    #banner-text {
+    font-size: 16px;
+    }
+
+    .blogBody {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .banner-head {
+        margin-left: 11%;
+        color: #f72585;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mobileImg {
+        margin-left: 4%;
+    }
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    .banner-head {
+        margin-left: 5%;
+    }
+
+    .banner-text {
+        margin-left: 3%;
+        font-size: 16px;
+    }
+
+    section {
+        margin: 15px;
+    }
+}
