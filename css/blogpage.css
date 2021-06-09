@@ -1,3 +1,7 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* This selects which view to use depending 
 the screen size used at the time */
 @media screen and (max-width:768px) {

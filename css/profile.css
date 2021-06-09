@@ -1,3 +1,7 @@
+    html {
+      font-family: 'Open Sans', sans-serif;
+    }      
+      
       #flex-container {
         display:flex;
         justify-content: center;
