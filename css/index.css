@@ -3,146 +3,160 @@ html {
 }
 
 
-@media screen and (min-width: 768px) {
-    .mobClass {
-        display: none;
+    @media screen and (min-width: 768px) {
+        .mobClass {
+            display: none;
+        }
     }
-}
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: linear-gradient(#131516,#f72585);
-    
-}
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(#131516,#f72585);
+            
+        }
 
-main {
-    min-height: 100vh;
-    background: linear-gradient(#131516,#f72585);
-    background: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+        main {
+            min-height: 100vh;
+            background: linear-gradient(#131516,#f72585);
+            background: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-.bg1 {
-    display: flex;
-    background: white;
-    min-height: 85vh;
-    width: 80%;
-    background: linear-gradient(rgba(44, 43, 43, 0.7),rgba(0, 0, 0, 0.3));
-    border-radius: 2em;
-    z-index: 2;
-    
-} 
+        .bg1 {
+            display: flex;
+            background: white;
+            min-height: 85vh;
+            width: 80%;
+            background: linear-gradient(rgba(44, 43, 43, 0.7),rgba(0, 0, 0, 0.3));
+            border-radius: 2em;
+            z-index: 2;
+        } 
 
-.navBar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.37));
-        border-radius: 2em;
+        .navBar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                background: linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.37));
+                border-radius: 2em;
+            }
+
+        .cards {
+                flex: 1;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                text-align: center;
+                font-size: 2em;
+            }
+
+        #portfolio-img-background1 {
+            background-image:url(../media/bgindex1.jpg)
+            }
+
+        .portfolio-img-background {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 8em;
+            width: 9em;
+            border-radius: 1rem;
+            }
+
+        .card {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .link {
+            display: flex;
+            margin: 2rem 0rem;
+            padding: 1rem 3rem; 
+            }
+
+        .link a {
+                color: white;
+                text-decoration: none;
+            }
+
+        .link a:hover {
+                color: #f72585;
+                font-weight: 900;
+                font-size: 1.1em;
+        }
+
+        img {
+                max-height: 65%;
+                max-width: 65%;
+            } 
+
+        .subtitle a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.5s;
+            }
+
+        .subtitle:hover {
+                font-weight: 900;
+                color: #f72585;
+            }
+
+        .outro {
+            color: #f72585;
+        }
+
+
+    @media screen and (max-width: 767px) {
+        img {
+            max-height: 200px;
+            max-width: 200px;
+        }
+        .mobClass {
+            display: none;
+        }
     }
 
-.cards {
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        font-size: 2em;
-    }
+    @media screen and (max-width: 610px) {
+        .cards {
+            display: none;
+        }
 
-.card {
-    display: border;
-    border-radius: 2em;
-    color: white;
-}
+        .link {
+            font-size: 0.5em;
+        }
+        .outro {
+            font-size: 0.4em;
+        }
+        .mobClass {
+            display: contents;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 0.6em;
+        }
+        html {
+            font-size: 2em;
+        }
 
-.link {
-      display: flex;
-      margin: 2rem 0rem;
-      padding: 1rem 3rem; 
-    }
-
-.link a {
-        color: white;
-        text-decoration: none;
-    }
-
-.link a:hover {
-        color: #f72585;
-        font-weight: 900;
-        font-size: 1.1em;
-}
-
- img {
-        max-height: 65%;
-        max-width: 65%;
-    } 
-
-.subtitle a {
-        color: white;
-        text-decoration: none;
-        transition: color 0.5s;
-      }
-
-.subtitle:hover {
-        font-weight: 900;
-        color: #f72585;
-    }
-
-.outro {
-    color: #f72585;
-}
-
-
-@media screen and (max-width: 767px) {
-    img {
-        max-height: 200px;
-        max-width: 200px;
-    }
-    .mobClass {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .cards {
-        display: none;
-    }
-
-    .link {
-        font-size: 0.5em;
-    }
-    .outro {
-        font-size: 0.4em;
-    }
-    .mobClass {
-        display: contents;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 0.6em;
-    }
-    html {
-        font-size: 2em;
-    }
-    
-    .link {
-        display: flex;
-        margin: 0.6rem 0rem;
-        padding: 1rem 1rem;
-  }
-    img {
-        max-height: 130px;
-        max-width: 130px;
-    }
+        .link {
+            display: flex;
+            margin: 0.6rem 0rem;
+            padding: 1rem 1rem;
+        }
+        img {
+            max-height: 135px;
+            max-width: 135px;
+            border-radius: 0.8rem;
+        }
 }

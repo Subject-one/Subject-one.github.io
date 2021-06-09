@@ -49,6 +49,7 @@ main {
         text-align: center;
     }
 
+    /* Beginning of all the blog icons */
     #portfolio-img-background1 {
         background-image:url(../media/blogimg1.jpg)
       }
@@ -79,7 +80,9 @@ main {
           width: 200px;
           border-radius: 7rem;
       }
+    /* End of all the blog icons */
 
+    
 .link {
       display: flex;
       margin: 2rem 0rem;
