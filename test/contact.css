@@ -1,0 +1,96 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#131516,#f72585);
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(#131516,#f72585);
+    background: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1 {
+    display: flex;
+    background: white;
+    min-height: 85vh;
+    width: 80%;
+    background: linear-gradient(rgba(44, 43, 43, 0.7),rgba(0, 0, 0, 0.3));
+    border-radius: 2em;
+    z-index: 2;
+} 
+
+.navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.37));
+        border-radius: 2em;
+    }
+
+.cards {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+.link {
+      display: flex;
+      margin: 2rem 0rem;
+      padding: 1rem 3rem; 
+    }
+
+.link a {
+        color: white;
+        text-decoration: none;
+    }
+
+.link a:hover {
+        color: #f72585;
+        font-weight: 900;
+        font-size: 1.1em;
+}
+
+img {
+        max-height: 96px;
+        max-width: 96px;
+    }
+
+.subtitle a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.5s;
+      }
+
+.subtitle:hover {
+        font-weight: 900;
+        font-size: 2em;
+    }
+
+.subtitle a:hover {
+        color: #f72585;
+    }
+
+.outro {
+    color: #f72585;
+}
+
+@media screen and (max-width: 767px) {
+    img {
+        max-height: 36px;
+        max-width: 36px;
+    }
+}
