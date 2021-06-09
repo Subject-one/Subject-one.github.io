@@ -45,9 +45,40 @@ main {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         text-align: center;
     }
+
+    #portfolio-img-background1 {
+        background-image:url(../media/blogimg1.jpg)
+      }
+    #portfolio-img-background2 {
+        background-image:url(../media/blogimg2.jpg)
+    }
+    #portfolio-img-background3 {
+        background-image:url(../media/blogimg3.jpg)
+    }
+    #portfolio-img-background4 {
+        background-image:url(../media/blogimg4.jpg)
+    }
+    #portfolio-img-background5 {
+        background-image:url(../media/blogimg5.jpg)
+      }
+    
+      .portfolio-img-background {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 98px;
+        width: 98px;
+        border-radius: 3rem;
+      }
+
+      .portfolio-img-background:hover {
+          height: 200px;
+          width: 200px;
+          border-radius: 7rem;
+      }
 
 .link {
       display: flex;
