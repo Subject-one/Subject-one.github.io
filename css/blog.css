@@ -25,6 +25,30 @@
     border-radius: 2rem;
   }
   
+    #portfolio-img-background1 {
+      background-image:url(../media/blogimg1.jpg)
+    }
+
+    #portfolio-img-background2 {
+      background-image:url(../media/blogimg2.jpg)
+    }
+
+    #portfolio-img-background3 {
+      background-image:url(../media/blogimg3.jpg)
+    }
+
+    #portfolio-img-background4 {
+      background-image:url(../media/blogimg4.jpg)
+    }
+
+    #portfolio-img-background5 {
+      background-image:url(../media/blogimg5.jpg)
+    }
+
+    #portfolio-img-background6 {
+      background-image:url(../media/blogimg6.jpg)
+    }
+
   .img-text-wrapper {
     position: absolute;
     top: 0px;
