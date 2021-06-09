@@ -22,6 +22,7 @@
     background-repeat: no-repeat;
     height: 200px;
     width: 100%;
+    border-radius: 2rem;
   }
   
   .img-text-wrapper {
