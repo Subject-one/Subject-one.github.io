@@ -49,12 +49,6 @@ main {
         text-align: center;
     }
 
-.card {
-        display: flex;
-        background: linear-gradient rgb(231, 228, 228);
-        
-    }
-
 .link {
       display: flex;
       margin: 2rem 0rem;
