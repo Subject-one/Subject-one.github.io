@@ -113,6 +113,23 @@ html {
             color: #f72585;
         }
 
+        .boxNav {
+            position: fixed;
+            display: flex;           
+            margin: 2rem 0rem;
+            padding: 0rem 2rem; 
+        }
+
+        .boxNavi1 {
+            margin: 0rem 0rem;
+            padding: 0rem 0rem; 
+            }
+
+            .boxNavi2 {
+                margin: 0rem 0rem;
+                padding: 0rem 3rem;                 
+                }
+
 
     @media screen and (max-width: 767px) {
         img {
