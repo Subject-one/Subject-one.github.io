@@ -32,7 +32,6 @@ html {
             width: 80%;
             background: linear-gradient(rgba(44, 43, 43, 0.7),rgba(0, 0, 0, 0.3));
             border-radius: 2em;
-            z-index: 2;
         } 
 
         .navBar {
@@ -52,19 +51,21 @@ html {
                 align-items: center;
                 justify-content: space-evenly;
                 text-align: center;
-                font-size: 2em;
+                max-width: 90%;
+                height: 100%;
+                padding-top: 60px;
             }
 
         #portfolio-img-background1 {
-            background-image:url(../media/bgindex1.jpg)
+            background-image:url(../media/blogimg1.jpg);
+            width: 20vw;
+            height: 15vw;
             }
 
         .portfolio-img-background {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 8em;
-            width: 9em;
             border-radius: 1rem;
             }
 
@@ -93,10 +94,9 @@ html {
                 font-size: 1.1em;
         }
 
-        img {
-                max-height: 65%;
-                max-width: 65%;
-            } 
+        .subtitle {
+            font-size: 1vw;
+        }
 
         .subtitle a {
                 color: white;
@@ -104,10 +104,10 @@ html {
                 transition: color 0.5s;
             }
 
-        .subtitle:hover {
+        /* .subtitle:hover {
                 font-weight: 900;
                 color: #f72585;
-            }
+            } */
 
         .outro {
             color: #f72585;
@@ -116,72 +116,67 @@ html {
         .boxNav {
             position: fixed;
             display: flex;
-            font-size: 2em;         
+            font-size: 2vw;         
             margin: 2rem 0rem;
             padding: 0rem 2rem;  
         }
 
-        .boxNavi1 {
-            margin: 0rem 0rem;
-            padding: 0rem 0rem; 
+            .boxNav a {
+                color: #f72585;
+                text-decoration: none;
+                font-size: 1.1em;
             }
 
-            .boxNavi2 {
-                margin: 0rem 0rem;
-                padding: 0rem 3rem;                
+                .boxNavi2:hover {
+                    font-size: 3vw;
                 }
 
 
     @media screen and (max-width: 767px) {
-        img {
-            max-height: 200px;
-            max-width: 200px;
-        }
+
         .mobClass {
             display: none;
         }
     }
 
-    @media screen and (max-width: 610px) {
-        .cards {
-            display: none;
-        }
+    @media screen and (max-width: 650px) {
 
-        .link {
-            font-size: 0.5em;
-        }
         .outro {
-            font-size: 0.4em;
-        }
-        .mobClass {
-            display: contents;
-            display: flex;
-            flex-direction: column;
-            color: white;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            font-size: 0.6em;
-        }
-        html {
-            font-size: 2em;
+            font-size: 0.8em;
         }
 
         .link {
-            display: flex;
-            margin: 0.6rem 0rem;
+            margin: 1rem 0rem;
             padding: 1rem 1rem;
         }
-        img {
-            max-height: 135px;
-            max-width: 135px;
-            border-radius: 0.8rem;
-        }
+
         .boxNav {
             position: fixed;
             display: flex;
-            font-size: 1em;         
-            margin: 1rem 0.5rem;
-            padding: 0rem 0rem;
+            font-size: 0.8em;         
+            margin: 1rem 0rem;
+            padding: 0rem 1rem;  
         }
+
+        .cards {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+            text-align: center;
+            max-width: 90%;
+            height: 100%;
+            padding-top: 60px;
+        }
+
+        #portfolio-img-background1 {
+            background-image:url(../media/blogimg1.jpg);
+            width: 115px;
+            height: 96px;
+            }
+
+            .subtitle {
+                font-size: 2vw;
+            }
 }

@@ -152,8 +152,8 @@ html {
 
         .link {
             display: flex;
-            margin: 0.6rem 0rem;
-            padding: 1rem 1rem;
+            margin: 1rem 0.5rem;
+            padding: 1rem 0.5rem;
         }
         img {
             max-height: 135px;
