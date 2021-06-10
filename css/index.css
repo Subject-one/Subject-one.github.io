@@ -113,6 +113,10 @@ html {
             color: #f72585;
         }
 
+        .carlo a {
+            color: rgb(1, 255, 1);
+            font-weight: 900px;
+        }
 
     @media screen and (max-width: 767px) {
         img {

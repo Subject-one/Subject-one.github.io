@@ -115,9 +115,10 @@ html {
 
         .boxNav {
             position: fixed;
-            display: flex;           
+            display: flex;
+            font-size: 2em;         
             margin: 2rem 0rem;
-            padding: 0rem 2rem; 
+            padding: 0rem 2rem;  
         }
 
         .boxNavi1 {
@@ -127,7 +128,7 @@ html {
 
             .boxNavi2 {
                 margin: 0rem 0rem;
-                padding: 0rem 3rem;                 
+                padding: 0rem 3rem;                
                 }
 
 
@@ -175,5 +176,12 @@ html {
             max-height: 135px;
             max-width: 135px;
             border-radius: 0.8rem;
+        }
+        .boxNav {
+            position: fixed;
+            display: flex;
+            font-size: 1em;         
+            margin: 1rem 0.5rem;
+            padding: 0rem 0rem;
         }
 }
