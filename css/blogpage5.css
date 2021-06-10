@@ -1,0 +1,15 @@
+
+             .boxNavi1 {
+                margin: 0rem 0rem;
+                padding: 0rem 1rem;                
+            }
+
+            .boxNavi1:hover {
+                font-size: 3vw;
+            }
+
+            #portfolio-img-background1 {
+                background-image:url(../media/blogimg5.jpg);
+                width: 20vw;
+                height: 15vw;
+                }
