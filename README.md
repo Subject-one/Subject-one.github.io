@@ -26,7 +26,7 @@
 ---
 The early stage of the project was **difficult**.
 There was a lack of knowledge to push development.
-I found myself *constantly* referring to ![CSS Rules](/docs/images/css-rule.png).
+I found myself *constantly* referring to ![CSS Rules](/docs/css-rule.png).
 
 > 1. Wireframes needed to be laid down in order to textualise the project.
 > 2. A color theme helped establish the overall theme and direction.
@@ -48,15 +48,15 @@ Not limited by device, as the website will resize according to screen size.
 This allows for a greater scope of users.
 Let's take a look at some of the websites uses.
 
-![Home Page](/docs/images/home_page.png)
-![Profile Page](/docs/images/profile_page.png)
-![Profile Page Reaction](/docs/images/profile_page_highlight.png)
-![Blog Page](/docs/images/blog_page.png)
-![Blog Page on a smaller device](/docs/images/blog_mob_view.png)
-![Blog Page Reaction](/docs/images/blog_highlight.png)
-![Blog Post](/docs/images/blog_post.png)
-![Blog Post on a smaller device](/docs/images/blog_post_mob.png)
-![Contact Page](/docs/images/contact_page.png)
+![Home Page](/docs/home_page.png)
+![Profile Page](/docs/profile_page.png)
+![Profile Page Reaction](/docs/profile_page_highlight.png)
+![Blog Page](/docs/blog_page.png)
+![Blog Page on a smaller device](/docs/blog_mob_view.png)
+![Blog Page Reaction](/docs/blog_highlight.png)
+![Blog Post](/docs/blog_post.png)
+![Blog Post on a smaller device](/docs/blog_post_mob.png)
+![Contact Page](/docs/contact_page.png)
 
 ## 3. Final Comments
 ---
