@@ -1,11 +1,59 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" >
-    <url>   
-     <loc>home page link here</loc>
-     <lastmod>2021-05-27</lastmod>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>https://subject-one.github.io/</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/index.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/profile.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/blog.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/contact.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/files/resume.pdf</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/blogpage1.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/blogpage2.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/blogpage3.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/blogpage4.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://subject-one.github.io/src/blogpage5.html</loc>
+<lastmod>2021-06-11T12:04:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
 </urlset>
-// Each page must contain a sitemap //
-
