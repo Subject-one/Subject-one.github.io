@@ -51,19 +51,19 @@ html {
 
     /* BEGINNING OF ALL BLOG ICONS */
     #portfolio-img-background1 {
-        background-image:url(../media/blogimg1.jpg)
+        background-image:url(/src/media/blogimg1.jpg)
       }
     #portfolio-img-background2 {
-        background-image:url(../media/blogimg2.jpg)
+        background-image:url(/src/media/blogimg2.jpg)
     }
     #portfolio-img-background3 {
-        background-image:url(../media/blogimg3.jpg)
+        background-image:url(/src/media/blogimg3.jpg)
     }
     #portfolio-img-background4 {
-        background-image:url(../media/blogimg4.jpg)
+        background-image:url(/src/media/blogimg4.jpg)
     }
     #portfolio-img-background5 {
-        background-image:url(../media/blogimg5.jpg)
+        background-image:url(/src/media/blogimg5.jpg)
       }
     
       .portfolio-img-background {

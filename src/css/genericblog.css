@@ -58,7 +58,7 @@ html {
             }
 
         #portfolio-img-background1 {
-            background-image:url(../media/blogimg1.jpg);
+            background-image:url(/src/media/blogimg1.jpg);
             width: 20vw;
             height: 15vw;
             }
@@ -177,7 +177,7 @@ html {
         }
 
         #portfolio-img-background1 {
-            background-image:url(../media/blogimg1.jpg);
+            background-image:url(/src/media/blogimg1.jpg);
             width: 115px;
             height: 96px;
             }

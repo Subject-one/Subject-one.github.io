@@ -9,7 +9,7 @@
             }
 
             #portfolio-img-background1 {
-                background-image:url(../media/blogimg3.jpg);
+                background-image:url(/src/media/blogimg3.jpg);
                 width: 20vw;
                 height: 15vw;
                 }
