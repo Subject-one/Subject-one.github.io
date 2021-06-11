@@ -114,6 +114,7 @@ html {
             color: #f72585;
         }
 
+    /* FOR BLOG PREVIOUS AND NEXT BUTTONS */
         .boxNav {
             position: fixed;
             display: flex;

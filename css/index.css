@@ -1,3 +1,5 @@
+/* PLEASE BE AWARE. TO AVOID REPEATING MYSELF ON COMMENTS, MAJORITY OF THE COMMENTS ARE INSIDE INDEX & PROFILE HTML/CSS */
+
 html {
     font-family: 'Open Sans', sans-serif;
 }
@@ -8,6 +10,8 @@ html {
             display: none;
         }
     }
+
+    /* FROM THIS BOX PLEASE DONT REMOVE CODE */
         body {
             margin: 0;
             padding: 0;
@@ -25,6 +29,7 @@ html {
             justify-content: center;
         }
 
+    /* THE MAIN CONTENT BOX */
         .bg1 {
             display: flex;
             background: white;
@@ -34,6 +39,7 @@ html {
             border-radius: 2em;
             z-index: 2;
         } 
+    /* END OF MAIN BOXES */
 
         .navBar {
                 display: flex;
@@ -45,6 +51,7 @@ html {
                 border-radius: 2em;
             }
 
+    /* MAIN CONTENTS INSIDE THE BOX */
         .cards {
                 flex: 1;
                 display: flex;
@@ -68,6 +75,7 @@ html {
             border-radius: 1rem;
             }
 
+    /* INDIVIDUAL CONTENT */
         .card {
             color: white;
             display: flex;
@@ -93,6 +101,11 @@ html {
                 font-size: 1.1em;
         }
 
+    /* BOTTOM OF NAV @ LOCATION */
+        .outro {
+            color: #f72585;
+        }
+
         img {
                 max-height: 65%;
                 max-width: 65%;
@@ -108,11 +121,6 @@ html {
                 font-weight: 900;
                 color: #f72585;
             }
-
-        .outro {
-            color: #f72585;
-        }
-
 
 
     @media screen and (max-width: 767px) {

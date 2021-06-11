@@ -49,7 +49,7 @@ html {
             text-align: center;
         }
 
-    /* Beginning of all the blog icons */
+    /* BEGINNING OF ALL BLOG ICONS */
     #portfolio-img-background1 {
         background-image:url(../media/blogimg1.jpg)
       }
@@ -81,7 +81,7 @@ html {
           border-radius: 7rem;
           box-shadow: 0px 0px 4px 8px #f72585;
       }
-    /* End of all the blog icons */
+    /* END OF BLOG ICONS */
 
 
     .link {

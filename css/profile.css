@@ -1,7 +1,8 @@
-html {
-    font-family: 'Open Sans', sans-serif;
-}
+    /* PLEASE BE AWARE. TO AVOID REPEATING MYSELF ON COMMENTS, MAJORITY OF THE COMMENTS ARE INSIDE INDEX & PROFILE HTML/CSS */
 
+    html {
+        font-family: 'Open Sans', sans-serif;
+    }
 
     @media screen and (min-width: 768px) {
         .mobClass {
@@ -9,6 +10,7 @@ html {
         }
     }
 
+    /* FROM THIS BOX PLEASE DONT REMOVE CODE */
         body {
             margin: 0;
             padding: 0;
@@ -25,7 +27,7 @@ html {
             justify-content: center;
         }
 
-        /* THE MAIN CONTENT BOX */
+    /* THE MAIN CONTENT BOX */
         .bg1 {
             display: flex;
             background: white;
@@ -34,8 +36,9 @@ html {
             background: linear-gradient(rgba(44, 43, 43, 0.7),rgba(0, 0, 0, 0.3));
             border-radius: 2em;
         } 
+    /* END OF MAIN BOXES */
 
-        /* ALL OF NAV BAR */
+    /* ALL OF NAV BAR */
         .navBar {
                 display: flex;
                 flex-direction: column;
@@ -68,7 +71,7 @@ html {
                                 color: #f72585;
                             }
 
-        /* CONTENTS INSIDE THE BOX */
+        /* MAIN CONTENTS INSIDE THE BOX */
         .cards {
                 flex: 1;
                 display: flex;
@@ -92,7 +95,7 @@ html {
                 border-radius: 3rem;
                 }
 
-            /* INDIVIDUAL CONTENT */
+        /* INDIVIDUAL CONTENT */
                 .card {
                     color: white;
                     display: flex;
@@ -101,7 +104,7 @@ html {
                     flex-direction: row;
                 } 
 
-            /* TEXT WITHIN BOX */
+        /* TEXT WITHIN CONTENT BOX */
         .subtitle a {
                 color: #f72585;
                 text-decoration: none;
@@ -118,7 +121,7 @@ html {
                     transition: color 1s;
                 }
                 
-
+    /* THE MEDIA BREAKS WERE PURPOSELY DONT FOR STUPID IPAD PRO */
     @media screen and (max-width: 770px) {
         img {
             max-height: 200px;
@@ -160,6 +163,7 @@ html {
             font-size: 2em;
         }
 
+        /* THE RESUME BUTTON */
         a {
             text-decoration: none;
             color: #f72585;
