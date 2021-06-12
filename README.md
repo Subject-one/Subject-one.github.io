@@ -16,11 +16,15 @@
 ---
 
 > ## Table of contents
+>> 0. Sitemap
 >> 1. Development
 >> 2. Usage
 >> 3. Final Comments
 >> 4. References
 >> 5. Footnotes
+
+## 0. Sitemap
+![Sitemap](/docs/sitemap.PNG)
 
 ## 1. Development
 ---
@@ -47,6 +51,7 @@ The aim of this website is to be used by people of all ages.
 Not limited by device, as the website will resize according to screen size.
 This allows for a greater scope of users.
 Let's take a look at some of the websites uses.
+Target audience is mainly directed to potential future employers.
 
 ![Home Page](/docs/home_page.png)
 ![Profile Page](/docs/profile_page.png)
@@ -66,29 +71,6 @@ There was a lot of effort that went into creating all of the code.
 Although, I would change many things in future designs.
 
 ## 4. References
----
-* [Make-a-README][1]
-* [Markdown-Guide][2]
-* [Writing-a-README][3]
-* [Awesome-README][4]
-* [Jetbrains][5]
-* [Git-Branching][6]
-* [LinkedIn-Learning][7]
-* [Flexbox-Froggy][8]
-* [Dev-Docs][9]
-* [An-Incredible-Teacher][10]
-* [Web-Dev][11]
-* [Mozilla-Web-Dev][12]
-* [Coolors][13]
-* [Diagrams][14]
-* [Another-Incredible-Teacher][15]
-* [Wireframe][16]
-* [Flexbox-Zombies][17]
-* [Flukeout][18]
-* [Github-Intro][19]
-* [w3schools][20]
-
-## 5. Footnotes
 ---
 * 1: https://www.makeareadme.com/
 * 2: https://www.markdownguide.org/basic-syntax/
